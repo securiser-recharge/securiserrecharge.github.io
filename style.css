@@ -1,5 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -19,7 +21,7 @@
 
   /*========== Font and typography ==========*/
   /* .5rem = 8px | 1rem = 16px ... */
-  --body-font: 'Jost', sans-serif;
+  --body-font: 'Poppins', sans-serif;
   --big-font-size: 3rem;
   --h1-font-size: 2.5rem;
   --h2-font-size: 2.25rem;
@@ -46,12 +48,13 @@ html {
   scroll-behavior: smooth;
 }
 
+label,
 input,
 textarea,
 button,
 body {
   font-family: var(--body-font);
-  font-size: var(--larger-font-size);
+  font-size: .9rem;
 }
 
 main {
@@ -101,7 +104,7 @@ section {
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
+  font-size: var(--h3-font-size);
   font-weight: var(--weight-400);
   line-height: 1.2;
   margin-bottom: 1.5rem;
@@ -128,7 +131,6 @@ section {
 
 .recharge-form label {
   display: block;
-  font-size: var(--large-font-size);
   margin-bottom: 0.5rem;
 }
 
@@ -280,7 +282,7 @@ section {
 /*=============== Home ===============*/
 
 .home {
-    background-image: url('./img/home3.jpg');
+    background-image: url('./img/home4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -319,7 +321,7 @@ section {
 }
 
 .home h1 {
-    font-size: var(--h1-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--weight-600);
     padding-bottom: 1.5rem;
     color:var(--white);
@@ -610,6 +612,8 @@ button.contact {
 
 .testimonials-description {
     padding-bottom: 1rem;
+    font-size: .8rem;
+    line-height: 1.5rem;
 }
 /* ===================footer styling=================== */ 
 
